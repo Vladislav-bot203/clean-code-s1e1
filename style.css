@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__image {
   width: 100%;
 }
-.header .more-info {
+.header__info {
   font-family: fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@
     text-align: center;
   }
 }
-.main-wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,14 +32,14 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add__wrapper {
   display: flex;
 }
-.section-list {
+.list {
   margin: 0;
   padding: 0px;
 }
-.list-item, 
+.list__item, 
 .section-header {
   list-style: none;
 }
@@ -86,16 +86,16 @@
 }
 
 /* New Task */
-.new-task {
+.add__task {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+#add__task {
   width: 318px;
 }
 
 /* Task list */
-.list-item {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -103,7 +103,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.list-item > * {
+.list__item > * {
   vertical-align: middle;
 }
 
@@ -129,7 +129,7 @@
 }
 
 /* Completed */
-#completed-tasks .task-label {
+#completed__tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
